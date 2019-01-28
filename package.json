@@ -1,0 +1,26 @@
+{
+  "name": "carapi",
+  "version": "1.0.0",
+  "description": "This is a api",
+  "git repository": "https://github.com/Ailsa0514/react-native-carApp-.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon index.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-formidable": "^1.2.0",
+    "formidable": "^1.2.1",
+    "joi": "^14.3.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "mongoose": "^5.4.0"
+  }
+}
